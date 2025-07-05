@@ -1,0 +1,12 @@
+@import 'tailwindcss';:root[data-theme='light'] {
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --primary-color: #007bff;
+  --font-family: 'Roboto', sans-serif;
+}
+:root[data-theme='dark'] {
+  --background-color: #1a1a1a;
+  --text-color: #ffffff;
+  --primary-color: #4dabf7;
+  --font-family: 'Montserrat', sans-serif;
+}

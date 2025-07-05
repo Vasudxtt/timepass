@@ -15,24 +15,24 @@ function Header() {
         <div className='header-top'>
           <div className="container mx-auto flex justify-between items-center">
             <div className=" flex gap-2 text-xl font-bold text-red-500">
-              <Link to="mailto:xyz@gmail.com" target="_blank" className="hover:text-[orange]">
+              <Link to="mailto:xyz@gmail.com" target="_blank">
                 <img src={Gmil} alt="TV stack" className='h-10 justify-start' />
               </Link>
-               {<Link to="tel:+91945635368900" target="_blank" className="hover:text-[orange]">
+               {<Link to="tel:+91945635368900" target="_blank" >
                 <img src={Image} alt="TV stack" className='h-10 bg-transparent opacity-60 ' />
               </Link>}
             </div>
               <ThemeToggle />
             <div>
-              <div className=" flex gap-2 text-xl font-bold text-red-500">
-              <Link to="https://bsky.app/intent/compose" target="_blank" className="hover:text-[orange]">
+              <div className=" flex gap-2 text-xl font-bold">
+              <Link to="https://bsky.app/intent/compose" target="_blank">
                 <img src={Blu} alt="TV stack" className='h-10 justify-end' />
 
               </Link>
-              <Link to="http://www.facebook.com/share.php?u=[URL]&title=[TITLE]" target="_blank" className="hover:text-[orange]">
+              <Link to="http://www.facebook.com/share.php?u=[URL]&title=[TITLE]" target="_blank">
                 <img src={F} alt="TV stack" className='h-10 bg-transparent opacity-25 ' />
               </Link>
-               <Link to="https://twitter.com/intent/tweet?text=[TEXT]" target="_blank" className="hover:text-[orange]">
+               <Link to="https://twitter.com/intent/tweet?text=[TEXT]" target="_blank">
                 <img src={Twitter} alt="TV stack" className='h-10 bg-transparent opacity-25 ' />
 
               </Link>
@@ -48,13 +48,13 @@ function Header() {
           </div>
             
           <nav className="flex space-x-4 text-red-500">
-            <Link to="/home" target="_blank" className="hover:text-[orange]">
+            <Link to="/home" target="_blank">
               Home
             </Link>
-            <Link to="/about" target="_blank" className="hover:text-[orange]">
+            <Link to="/about" target="_blank">
               About
             </Link>
-            <Link to="/contact" target="_blank" className="hover:text-[orange]">
+            <Link to="/contact" target="_blank">
               Contact Us
             </Link>
           </nav>
